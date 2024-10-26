@@ -96,6 +96,7 @@ p {
 
 #title p {
   margin-top: 8px;
+  text-align: left;
 }
 
 #card-travel p {
@@ -141,6 +142,10 @@ ul {
   color: var(--accent-orange);
 }
 
+ul li::marker {
+  color: var(--text-secondary);
+}
+
 #description {
   text-align: center;
 }
@@ -148,6 +153,7 @@ ul {
 footer {
   margin: 65px auto 48px;
   text-align: center;
+  color: var(--text-secondary);
 }
 footer img {
   vertical-align: middle;
