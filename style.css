@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 :root {
   font-family: "Open Sans", serif;
@@ -9,6 +8,10 @@
   --text-secondary: #333333;
   --text-tertiary: #696969;
   --border-primary: #d9d9d9;
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
 }
 
 body {
@@ -74,10 +77,31 @@ p {
   margin: 64px 0 64px;
 }
 
+#content-list img {
+  margin-bottom: 20px;
+}
+
 #title h2 {
   margin-top: 2px;
 }
 
 #title p {
   margin-top: 8px;
+}
+
+#card-travel p {
+  margin-top: 4px;
+}
+
+.content-info {
+  font-weight: bold;
+  color: var(--accent-blue);
+}
+
+ol h3 {
+  margin-left: 40px;
+}
+
+ul {
+  list-style-type: disc;
 }
